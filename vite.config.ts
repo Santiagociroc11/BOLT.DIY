@@ -166,6 +166,11 @@ export default defineConfig((config) => {
         },
       },
     },
+     server: {
+      host: true,
+      port: 5173,
+      allowedHosts: 'all',
+    },
   };
 });
 
